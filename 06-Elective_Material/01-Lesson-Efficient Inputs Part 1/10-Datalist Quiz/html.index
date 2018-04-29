@@ -1,1 +1,22 @@
+<!DOCTYPE html>
 
+<!--
+Turn this dropdown into a datalist! See the instructor notes for more information on datalists.
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz - Datalists</title>
+</head>
+<body>
+    <p>What kind of event are you hosting?</p>
+       <input list="Event Type">
+       <datalist id="Event Type">
+        <option value = "Party"></option>
+        <option value = "Meeting"></option>
+        <option value = "Conference Talk"></option>>
+        <option value = "Sports Game"></option>
+       </datalist>
+ </body>
+</html>
