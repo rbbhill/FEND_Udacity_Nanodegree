@@ -1,3 +1,144 @@
+var firstPasswordInput = document.querySelector('#first');
+var secondPasswordInput = document.querySelector('#second');
+var submit = document.querySelector('#submit');
+
+
+
+
+function IssueTracker() {
+  this.issues = [];
+}
+IssueTracker.prototype = {
+  add: function (issue) {
+    this.issues.push(issue);
+  },
+  retrieve: function () {
+    var message = "";
+    switch (this.issues.length) {
+      case 0:
+
+        break;
+      case 1:
+        message = "Please correct the following issue:\n" + this.issue[0];
+        break;
+      default:
+        message = "Please correct the following issues:\n" + this.issues.join(\n);
+        break;
+    }
+    return message;
+  }
+};
+
+
+
+
+
+
+
+submit.onclick = function () {};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 Your code goes here!
  */
@@ -16,11 +157,3 @@ match a character that isn't allowed in this password: /[^A-z0-9\!\@\#\$\%\^\&\*
 /*
 Grabbing a few inputs to help you get started...
  */
-var firstPasswordInput = document.querySelector('#first');
-var secondPasswordInput = document.querySelector('#second');
-var submit = document.querySelector('#submit');
-
-/*
-You'll probably find this function useful...
- */  
-submit.onclick = function () {};
