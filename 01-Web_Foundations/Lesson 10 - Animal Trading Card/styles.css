@@ -2,12 +2,10 @@ body {
   font-family: Arial, 'times new roman', 'open sans', sans-serif;
   color: #ffffff;
 }
-
 #container {
   border: solid;
   padding: 5px 15px 8px 10px;
 }
-
 #card {
   margin: auto;
   width: 300px;
@@ -17,7 +15,6 @@ body {
   background-color: #000000;
   box-shadow: 4px 4px 4px 4px gray;
 }
-
 img {
   width: 300px;
   border-radius: 5px;
@@ -42,6 +39,5 @@ img {
 #facts li span {
   font-weight: bold;
 }
-
 /* end */
 /* add your CSS here */
