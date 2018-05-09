@@ -1,0 +1,17 @@
+@media screen and (max-width 550px) {
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-news, .hero {
+    width: 50%;
+    order: -1;
+  }
+  .scores {
+    width: 35%;
+  }
+  .weather {
+    width: 65%;
+    order: 1;
+  }
+}
