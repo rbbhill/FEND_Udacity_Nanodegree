@@ -40,3 +40,8 @@ var b = foo(3);
 console.log(a);
 
 /**/
+var x = 1;
+while (x <=10) {
+  console.log(x + " Mississippi");
+  x = x + 1;
+}
